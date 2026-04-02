@@ -6,6 +6,7 @@ pragma solidity ^0.8.20;
 // 导入官方标准ERC20合约
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
+
 // 最简标准ERC20代币
 contract BasicERC20 is ERC20 {
     // 构造函数：代币名称、代币符号
