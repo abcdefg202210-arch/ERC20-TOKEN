@@ -14,6 +14,7 @@ contract ManageableERC20 is ERC20, Ownable {
         _mint(msg.sender, 10_000_000 * 10 ** decimals());
     }
 
+
     // 只有管理员可以增发代币
     function mint(address to, uint256 amount) external onlyOwner {
         _mint(to, amount);
